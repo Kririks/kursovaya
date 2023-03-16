@@ -109,11 +109,12 @@ body {
     
     font-size: 25px;
     font-family: Calibri;
+    border-radius: 10px;
+    background-color: white;
 }
 .banner_content
 {
     display: flex;
     flex-direction: row;
-    margin: 30px;
-    
+    margin: 30px;      
 }
