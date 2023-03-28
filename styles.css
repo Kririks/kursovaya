@@ -102,7 +102,7 @@ body {
     padding-left: 0%;
     margin-bottom: 30px;
 }
-#plusi
+#plusi_mesto, #plusi_poshiv, #plusi_ruki, #plusi_eks, #plusi_assortiment, #plusi_podhod, #plusi_staj
 {
     margin: 25px;
     width: 500px;
@@ -117,7 +117,7 @@ body {
     background-color: rgba(15, 106, 226, 0.144);
     box-shadow: 0px 0px 10px rgba(15, 106, 226, 0.075);
 }
-#plusi:hover
+#plusi_mesto:hover, #plusi_poshiv:hover, #plusi_ruki:hover, #plusi_eks:hover, #plusi_assortiment:hover, #plusi_podhod:hover, #plusi_staj:hover
 {
     color: black;
     text-shadow: 0px 0px 3px black;
@@ -125,11 +125,11 @@ body {
     background-color: rgba(255, 255, 255, 0.247);
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.247);
 }
-#plus_image
+#plus_image_staj, #plus_image_mesto
 {
     display: none;
 }
-#plus_image.active
+#plus_image_staj.active, #plus_image_mesto.active
 {
     display: block;
 }
