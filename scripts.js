@@ -1,19 +1,35 @@
-"use strict"
-let plusi_staj = document.querySelector('#plusi_staj');
-let plus_image_staj = document.querySelector('#plus_image_staj');
+'use strict'
+let button1 = document.querySelector('#usluga_name1');
+let elem1 = document.querySelector('#usluga_info1');
 
-plusi_staj.addEventListener('click', func)
+button1.addEventListener('click', function(){
+    elem1.classList.toggle('active');
+});
 
-function func() { 
-    plus_image_staj.classList.toggle('active');
-    this.removeEventListener('click', func); 
-};
+let button2 = document.querySelector('#usluga_name2');
+let elem2 = document.querySelector('#usluga_info2');
 
-let plusi_mesto = document.querySelector('#plusi_mesto');
-let plus_image_mesto = document.querySelector('#plus_image_mesto');
+button2.addEventListener('click', function(){
+    elem2.classList.toggle('active');
+});
 
-plusi_mesto.addEventListener('mouseenter', function()
-{
-    plus_image_mesto.classList.add('active'); 
-    plus_image_mesto.removeEventListener('click', func);
+let button3 = document.querySelector('#usluga_name3');
+let elem3 = document.querySelector('#usluga_info3');
+
+button3.addEventListener('click', function(){
+    elem3.classList.toggle('active');
+});
+
+let button4 = document.querySelector('#usluga_name4');
+let elem4 = document.querySelector('#usluga_info4');
+
+button4.addEventListener('click', function(){
+    elem4.classList.toggle('active');
+});
+
+let button5 = document.querySelector('#usluga_name5');
+let elem5 = document.querySelector('#usluga_info5');
+
+button5.addEventListener('click', function(){
+    elem5.classList.toggle('active');
 });

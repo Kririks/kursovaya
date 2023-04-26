@@ -75,10 +75,10 @@ body {
 {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin: 40px;
     align-items: center;
-    margin-left: 15%;
-    width: 70%;
+    width: 90%;
+    margin-left: 5%;
 
     
     border-radius: 45px;
@@ -102,22 +102,39 @@ body {
     padding-left: 0%;
     margin-bottom: 30px;
 }
-#plusi_mesto, #plusi_poshiv, #plusi_ruki, #plusi_eks, #plusi_assortiment, #plusi_podhod, #plusi_staj
-{
-    margin: 25px;
-    width: 500px;
+.plus
+{   
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 300px;
     padding: 10px;
+    padding-top: 1%;
     
+    justify-content: center;
+    text-align: center;
     font-size: 29px;
     font-family: Calibri;
     color: white;
     text-shadow: 0px 0px 3px white;
-    cursor:default;
+    cursor:pointer;
     border-radius: 10px;
-    background-color: rgba(15, 106, 226, 0.144);
+    background-color: rgba(15, 106, 226, 0.244);
     box-shadow: 0px 0px 10px rgba(15, 106, 226, 0.075);
 }
-#plusi_mesto:hover, #plusi_poshiv:hover, #plusi_ruki:hover, #plusi_eks:hover, #plusi_assortiment:hover, #plusi_podhod:hover, #plusi_staj:hover
+.plusi_verh
+{
+    display: flex;
+    flex-direction: row;
+}
+.plusi_niz
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 13%;
+}
+
+.plus:hover
 {
     color: black;
     text-shadow: 0px 0px 3px black;
@@ -125,35 +142,75 @@ body {
     background-color: rgba(255, 255, 255, 0.247);
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.247);
 }
-#plus_image_staj, #plus_image_mesto
-{
-    display: none;
-}
-#plus_image_staj.active, #plus_image_mesto.active
-{
-    display: block;
-}
-.banner_content
-{
-    width: 1350px;
-    display: flex;
-    flex-direction: row;
-    margin: 30px;      
-}
-.uslugi_icons
-{
 
+.uslugi_spisok
+{
+    display: flex;
+    flex-direction: column;
 }
 .uslugi_title
 {
+    margin: 15px;
 
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    text-shadow: 0px 0px 10px white;
 }
 .uslugi
 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
 
+    
+    border-radius: 45px;
+    background-color: rgba(15, 99, 226, 0.55);
+    box-shadow: 0px 0px 20px rgba(15, 99, 226, 0.55);
 }
-.usluga_name
+#usluga_name1, #usluga_name2, #usluga_name3, #usluga_name4, #usluga_name5
 {
-
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 1300px;
+    padding: 10px;
+    padding-top: 1%;
+    
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 29px;
+    font-family: Calibri;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+    cursor:pointer;
+    border-radius: 10px;
+    background-color: rgba(15, 142, 226, 0.444);
+    box-shadow: 0px 0px 10px rgba(15, 131, 226, 0.349);
 }
-.
+#usluga_name1:hover, #usluga_name2:hover, #usluga_name3:hover, #usluga_name4:hover, #usluga_name5:hover
+{
+    color: black;
+    text-shadow: 0px 0px 3px black;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.247);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.247);
+}
+#usluga_info1, #usluga_info2, #usluga_info3, #usluga_info4, #usluga_info5
+{
+    display: none;
+	width: 100%;
+}
+#usluga_info1.active, #usluga_info2.active, #usluga_info3.active, #usluga_info4.active, #usluga_info5.active
+{
+    display: block;
+    color: black;
+    text-shadow: 0px 0px 3px black;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.541);
+}
