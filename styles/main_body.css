@@ -49,10 +49,10 @@ body {
     font-family: Calibri;
     color: white;
     text-shadow: 0px 0px 1px white;
-    cursor:pointer;
+    cursor: normal;
     border-radius: 10px;
     background-color: rgba(241, 149, 74, 0.808);
-    box-shadow: 0px 0px 15px rgba(26, 16, 9, 0.589);
+    box-shadow: 0px 0px 10px rgb(223, 113, 24);
 }
 .plusi_verh
 {
@@ -97,7 +97,7 @@ body {
     align-items: center;
     width: 90%;
     margin-left: 5%;
-
+    margin-bottom: 40px;
     
     border-radius: 45px;
     background-color: rgba(241, 149, 74, 0.808);
@@ -142,7 +142,7 @@ body {
     display: block;
     color: black;
     text-shadow: 0px 0px 1px black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.753);
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.541);
     padding-left: 30%;

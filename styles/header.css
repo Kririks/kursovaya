@@ -1,8 +1,12 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .header
 {
     display: flex;
     flex-direction: column;
-
 }
 .header_top
 {
@@ -20,6 +24,7 @@
     font-size: 45px;
     font-family: 'Marck Script', cursive;
     color: black;
+    cursor: pointer;
 }
 .atelie_info
 {
@@ -74,6 +79,8 @@
     margin: 20px;
     padding-left: 75px;
     padding-right: 75px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    border-radius: 15px;
 
     font-size: 30px;
     font-weight: bold;
@@ -82,7 +89,10 @@
 }
 .header_bottom_option:hover
 {
-    color: rgba(85, 40, 12, 0.651);
+    border: solid 1px rgba(85, 40, 12, 0.651);
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(85, 40, 12);
     transition: 0.2s;
     cursor: pointer;
 }
