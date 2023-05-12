@@ -3,3 +3,49 @@ body {
     margin: 0;
     background-color: white
 }
+.main_banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    margin-left: 17%;
+    margin-top: 70px;
+    background-color: rgba(241, 149, 74, 0.808);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 149, 74, 0.808);
+    margin-bottom: 80px;
+}
+.main_remont_banner_title
+{
+    font-size: 45px;
+    font-family: 'Marck Script', cursive;
+    font-weight: lighter;
+}
+.spisok
+{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+
+    font-size: 30px;
+    font-family: Calibri;
+}
+.spisok2
+{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+.spisok2_item
+{
+
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

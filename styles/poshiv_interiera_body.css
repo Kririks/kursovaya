@@ -3,3 +3,38 @@ body {
     margin: 0;
     background-color: white
 }
+.main_banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    margin-left: 17%;
+    margin-top: 70px;
+    background-color: rgba(241, 149, 74, 0.808);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 149, 74, 0.808);
+    margin-bottom: 80px;
+}
+.main_banner_title
+{
+    font-size: 45px;
+    font-family: 'Marck Script', cursive;
+    font-weight: lighter;
+}
+.spisok
+{
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 30px;
+    font-family: Calibri;
+}
+.spisok_item
+{
+    margin: 20px;
+}
