@@ -1,5 +1,142 @@
-body {
+body 
+{
     color: rgba(0, 0, 0, 0.87);
     margin: 0;
     background-color: white
+}
+.main_poshiv_banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    margin-left: 17%;
+    margin-top: 50px;
+    background-color: rgba(241, 149, 74, 0.808);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 149, 74, 0.808);
+    margin-bottom: 70px;
+}
+.main_poshiv_banner_title
+{
+    font-size: 45px;
+    font-family: 'Marck Script', cursive;
+    font-weight: lighter;
+}
+.spisok
+{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    
+
+    font-size: 30px;
+    font-family: Calibri;
+}
+.spisok2
+{
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.spisok2_item
+{
+    margin: 15px;
+}
+.main_poshiv_banner_muj
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    margin-left: 17%;
+    margin-top: 50px;
+    background-color: rgba(241, 149, 74, 0.808);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 149, 74, 0.808);
+    margin-bottom: 70px;
+}
+.main_poshiv_banner_title_muj
+{
+    font-size: 45px;
+    font-family: 'Marck Script', cursive;
+    font-weight: lighter;
+}
+.spisok_muj
+{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+
+    font-size: 30px;
+    font-family: Calibri;
+}
+.spisok_muj2
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+    
+}
+.spisok_muj2_item
+{
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.spisok_muj2_item_1
+{
+    margin: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.main_poshiv_banner_det
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    margin-left: 17%;
+    margin-top: 50px;
+    background-color: rgba(241, 149, 74, 0.808);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 149, 74, 0.808);
+    margin-bottom: 70px;
+}
+.main_poshiv_banner_title_det
+{
+    font-size: 45px;
+    font-family: 'Marck Script', cursive;
+    font-weight: lighter;
+}
+.spisok_det
+{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+
+    font-size: 30px;
+    font-family: Calibri;
+}
+.spisok_det2
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+    
+}
+.spisok_det2_item
+{
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
